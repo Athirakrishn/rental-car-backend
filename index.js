@@ -21,9 +21,6 @@ rentalCarServer.listen(PORT,()=>{
 })
 
 //resolving http request
-// rentalCarServer.get('/',(req,res)=>{
-//   res.status(200).send('rental car started ')
-// })
 rentalCarServer.post('/',(req,res)=>{
   res.status(200).send('POST REQUEST')
 })
